@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<bean id="userId01" className="com.igeek.ad2_2.XML.User">
+		<property name="uid" value="u001"></property>
+		<property name="username" value="jack"></property>
+		<property name="password" value="1234"></property>
+	</bean>
+	
+	<bean id="bookId02" className="com.igeek.ad2_2.XML.Book">
+		<property name="bid" value="b001"></property>
+		<property name="title" value="标题"></property>
+		<property name="price" value="98"></property>
+	</bean>
+</beans>

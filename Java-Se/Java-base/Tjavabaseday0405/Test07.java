@@ -1,0 +1,22 @@
+package Tjavabaseday0405;
+
+public class Test07 {
+
+	public static void main(String[] args) {
+	     String s = "abcde";
+		
+		//char[] toCharArray():°Ñ×Ö·û´®×ª»»Îª×Ö·ûÊý×é
+		char[] chs = s.toCharArray();
+		for(int x=0; x<chs.length; x++) {
+			System.out.println(chs[x]);
+		}
+		System.out.println("-----------");
+		
+		//String toLowerCase():°Ñ×Ö·û´®×ª»»ÎªÐ¡Ð´×Ö·û´®
+		System.out.println("HelloWorld".toLowerCase());
+		//String toUpperCase():°Ñ×Ö·û´®×ª»»Îª´óÐ´×Ö·û´®
+		System.out.println("HelloWorld".toUpperCase());
+
+	}
+
+}
